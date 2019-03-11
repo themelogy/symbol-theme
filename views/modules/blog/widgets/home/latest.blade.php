@@ -7,7 +7,9 @@
             <div class="owl-carousel r-latest-news-list" id="r-latest-news-slider">
                 @foreach($posts as $post)
                 <div class="r-latest-news-single">
-                    <a href="{{ $post->url }}" class="d-inline-block"><img src="{{ Theme::url('images/latest-news-01.jpg') }}" class="img-fluid d-block m-auto" alt=""></a>
+                    <a href="{{ $post->url }}" class="d-inline-block">
+                        <img src="{{ $post->present()->firstImage(350,200,'fit',80) }}" class="img-fluid d-block m-auto" alt="{{ $post->title }}">
+                    </a>
                     <div class="r-latest-news-content">
                         <span class="r-date">{{ $post->created_at->formatLocalized('%d %B %Y') }}</span>
                         <h4><a href="{{ $post->url }}">{{ $post->title }}</a></h4>

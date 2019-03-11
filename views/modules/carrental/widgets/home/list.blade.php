@@ -13,7 +13,7 @@
                                 <div class="r-offer-img">
                                     <a class="d-inline-block" href="{{ $car->url }}"><img src="{{ $car->present()->firstImage(240,null,'resize',50) }}" class="img-fluid d-block m-auto" alt="{{ $car->fullname }}"></a>
                                     <div class="r-offer-img-over">
-                                        <i class="fa fa-search"></i>
+                                        <a href="{{ $car->url }}"><i class="fa fa-search"></i></a>
                                     </div>
                                 </div>
                                 <div class="r-best-offer-content">

@@ -64,7 +64,7 @@
 </div>
 
 @push('js-stack')
-    <script src="{{ elixir('js/contact.min.js', 'themes/zirve') }}" defer></script>
+{!! Theme::script('js/contact.min.js', ['defer']) !!}
 @endpush
 
 @push('js-inline')

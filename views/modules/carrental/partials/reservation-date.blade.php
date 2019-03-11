@@ -53,7 +53,7 @@
 
 @push('js-stack')
     {!! Theme::script('vendor/select2/js/select2.min.js', ['defer']) !!}
-    <script src="{{ elixir('js/datetime.min.js', 'themes/zirve') }}" defer></script>
+    {!! Theme::script('js/datetime.min.js', ['defer']) !!}
 @endpush
 
 @push('js-inline')
