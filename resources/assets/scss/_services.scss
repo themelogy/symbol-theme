@@ -1,4 +1,5 @@
 .r-advantages-part{
+	position: relative;
 	.r-advantage-main-part{
 		background:#f8f4da; padding-bottom:110px;
 		.advantage-head{
@@ -7,7 +8,9 @@
 			h2 {font-size:40px; color:#333; font-weight:300; padding-top:20px;position: relative; z-index: 1;
 				b{ font-weight:700;}
 			}
-			&::after{content: "A"; font-size: 200px; color: #f1ecd0; font-weight: 700;  position: absolute;  left: 0;  right: 0; top:50px;}
+			@media screen and (min-width: 300px) {
+				&::after{content: "A"; font-size: 200px; color: #f1ecd0; font-weight: 700;  position: absolute;  left: 0;  right: 0; top:50px;}
+			}
 		}
 		.r-advantages-box{margin-bottom: 30px; background:#fff; min-height:250px; text-align:center; padding-top:15px; padding-left:50px; padding-right:50px; cursor:pointer;
 			-webkit-transition: all 0.3s linear;

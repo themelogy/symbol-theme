@@ -13,8 +13,7 @@
 
 <div class="r-slider owl-carousel" id="defaultHomeSlider">
     @foreach($slides as $slide)
-        <div class="r-slider-item">
-            <img src="{!! $slide->present()->firstImage(1920,700,'fit',50) !!}" class="img-fluid d-block m-auto" alt="">
+        <div class="r-slider-item" style="background: url({!! $slide->present()->firstImage(1920,700,'fit',50) !!})">
             @isset($slide->car)
             <div class="container">
                 <div class="r-slider-top-content float-left text-left">

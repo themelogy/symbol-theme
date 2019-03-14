@@ -2,7 +2,7 @@
 
 return [
     'title'       => [
-        'home search'         => 'Ankara\'da aradığınız aracı <b>en uygun fiyata kiralayın!</b>',
+        'home search'         => 'Size en uygun aracı arayın!',
         'start price'         => '<b>:price TL</b>\'den başlayan fiyatlar',
         'featured cars title' => 'En iyi <b>Fırsatlar</b>',
         'featured cars desc'  => 'Sizin için <b>Seçtiklerimiz</b>',
