@@ -117,7 +117,7 @@
                                                 </div>
                                                 <div class="r-best-offer-content">
                                                     <a href="{{ $car->url }}">{{ $car->fullname }}</a>
-                                                    <p>{!! trans('themes::carrental.title.start price', ['price'=>$car->prices->price6]) !!}</p>
+                                                    <p>{!! trans('themes::carrental.title.price day', ['price'=>$car->prices->price1]) !!}</p>
                                                     <ul class="pl-0 mb-0">
                                                         <li><i class="fa fa-car"></i><span>{{ $car->present()->body_type }}</span></li>
                                                         <li><i class="fa fa-cogs"></i><span>{{ $car->present()->transmission }}</span></li>

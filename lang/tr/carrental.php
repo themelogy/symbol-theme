@@ -6,6 +6,7 @@ return [
         'start price'         => '<b>:price TL</b>\'den başlayan fiyatlar',
         'featured cars title' => 'En iyi <b>Fırsatlar</b>',
         'featured cars desc'  => 'Sizin için <b>Seçtiklerimiz</b>',
+        'price day'           => ':price TL / Gün',
     ],
     'titles'      => [
         'rental cars'     => 'Kiralık Araçlar',
