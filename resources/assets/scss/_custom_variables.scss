@@ -1,7 +1,10 @@
-$accent_color: #E99740;
-$accent_color_black: #85348A;
+$accent_color: darken(white, 75%);
+$accent_color_black: darken(#C93632, 5%);
 $color-white: #ffffff;
 $site-font: 'Poppins', sans-serif;
+$breadcrumb-color: orange;
+$menu-active-color: $breadcrumb-color;
+$header-color: $breadcrumb-color;
 
 $facebook_color: #365493;
 $twitter_color: #3CF;

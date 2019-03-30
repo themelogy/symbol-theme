@@ -141,7 +141,7 @@
     .r-header-in-over {
       //position: absolute;
       bottom: 150px;
-      color: $accent_color;
+      color: $breadcrumb-color;
       width: 100%;
       text-align: center;
 
@@ -425,7 +425,7 @@
     li {
       &.active, &:hover {
         a {
-          color: $accent_color;
+          color: $menu-active-color;
         }
       }
       a {

@@ -147,7 +147,7 @@
   border-color: #14181c;
 }
 .r-slider-serach.form-search .form-title {
-  background: #000;
+  background: rgba($accent_color_black, .8);
   color: #ffffff;
   padding: 16px 20px;
   margin-bottom: 24px;
@@ -295,11 +295,11 @@
 .r-slider-serach{
   max-width: 1170px; position: absolute; left: 0; right: 0; margin: auto; bottom: 80px; z-index: 999;
   > form{
-    max-width: 450px; width: 100%; background-color: rgba(34, 34, 34, 0.9);
+    max-width: 450px; width: 100%; background-color: rgba(darken($white, 10%), 0.9);
     .row{
       margin: 0;
       .form-group{
-          label{font-size: 13px; font-weight: 500; letter-spacing: 0.5px; color: #fff; text-transform: uppercase;}
+          label{font-size: 13px; font-weight: 500; letter-spacing: 0.5px; color: darken($white, 80%); text-transform: uppercase;}
           input{font-family: $site-font; font-size: 14px; &:focus{border-color: $accent_color;}}
       }
     }

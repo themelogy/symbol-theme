@@ -1,5 +1,10 @@
 @extends('layouts.master')
 
+@section('header.title')
+    {{--@themeSlide('anasayfa', 'home.slider-2')--}}
+    {{--@include('carrental::widgets.home.search-2')--}}
+@endsection
+
 @section('content')
     @themeSlide('anasayfa', 'home.slider')
     @include('carrental::widgets.home.search')

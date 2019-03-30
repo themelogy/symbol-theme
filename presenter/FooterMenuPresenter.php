@@ -1,4 +1,4 @@
-<?php namespace Themes\Symbol\Presenter;
+<?php namespace Themes\Zcar\Presenter;
 
 use Nwidart\Menus\Presenters\Presenter;
 

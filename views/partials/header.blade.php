@@ -5,7 +5,7 @@
                 <div class="row clearfix">
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
                         <div class="r-logo">
-                            <a href="{{ route('homepage') }}" class="d-inline-block"><img src="{{ Theme::url('images/logo/logo-wb.svg') }}" class="img-fluid d-block" alt="{{ setting('theme::company-name') }}" style="max-height:60px;"></a>
+                            <a href="{{ route('homepage') }}" class="d-inline-block"><img src="{{ Theme::url('images/logo/logo-wbg.svg') }}" class="img-fluid d-block" alt="{{ setting('theme::company-name') }}"></a>
                         </div>
                         <a href="javaScript:void(0)" class="menu-icon"> <i class="fa fa-bars"></i> </a>
                     </div>
@@ -13,7 +13,7 @@
 
                         <div class="r-nav-section float-right">
                             <nav>
-                                {!! Menu::render('header', \Themes\Symbol\Presenter\HeaderMenuPresenter::class) !!}
+                                {!! Menu::render('header', \Themes\Zcar\Presenter\HeaderMenuPresenter::class) !!}
                             </nav>
                         </div>
                     </div>

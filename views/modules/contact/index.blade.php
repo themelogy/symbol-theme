@@ -11,7 +11,7 @@
         <div class="container clearfix">
             <div class="contact-head">
                 <span>BİZE ULAŞIN</span>
-                <h2><b>{{ setting('theme::company-name') }}</b>'a<br> ulaşın. </h2>
+                <h2><b>{{ setting('theme::company-name') }}</b>'ya<br> ulaşın. </h2>
             </div>
             <div class="row clearfix">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">

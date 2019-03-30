@@ -5,7 +5,7 @@
             <div class="row clearfix">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="r-footer-block">
-                        <img src="{{ Theme::url('images/logo/logo-r.svg') }}" class="d-block img-fluid" alt="{{ setting('theme::company-name') }}">
+                        <img src="{{ Theme::url('images/logo/logo.svg') }}" class="d-block img-fluid" alt="{{ setting('theme::company-name') }}">
                         {!! Block::get('footer-intro') !!}
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                             <h6>{!! $menuService->title("footer-link-1") !!}</h6>
                             <nav>
                                 <nav>
-                                    @menu('footer-link-1', \Themes\Symbol\Presenter\FooterMenuLinksPresenter::class)
+                                    @menu('footer-link-1', \Themes\Zcar\Presenter\FooterMenuLinksPresenter::class)
                                 </nav>
                             </nav>
                         </div>
@@ -35,7 +35,7 @@
                             <h6>{!! $menuService->title("footer-link-2") !!}</h6>
                             <nav>
                                 <nav>
-                                    @menu('footer-link-2', \Themes\Symbol\Presenter\FooterMenuLinksPresenter::class)
+                                    @menu('footer-link-2', \Themes\Zcar\Presenter\FooterMenuLinksPresenter::class)
                                 </nav>
                             </nav>
                         </div>
@@ -49,7 +49,7 @@
                         <div class="r-footer-widget r-footer-nav">
                             <h6>{!! $menuService->title("footer-link-3") !!}</h6>
                             <nav>
-                                @menu('footer-link-3', \Themes\Symbol\Presenter\FooterMenuLinksPresenter::class)
+                                @menu('footer-link-3', \Themes\Zcar\Presenter\FooterMenuLinksPresenter::class)
                             </nav>
                         </div>
                     </div>
